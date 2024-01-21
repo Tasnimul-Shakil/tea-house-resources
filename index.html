@@ -43,9 +43,9 @@
     </style>
   </head>
   <body class="Font-manrope">
-    <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+    <header class="container mx-auto my-20">
+      <div class="">
+        <div class="flex justify-between items-center flex-col lg:flex-row">
           <div>
             <h1 class="text-7xl font-extrabold">
               It's good <br />
@@ -56,10 +56,14 @@
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn btn-primary">Explore More</button>
+            <button
+              class="btn text-white bg-gradient-to-r from-[#ff0000] to-[#ff8838]"
+            >
+              Explore More
+            </button>
           </div>
           <div>
-            <img src="./images/banner.png" class="max-w-sm" />
+            <img src="./images/banner.png" class="" />
             <!-- rating  -->
             <div
               class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60 rounded-xl"
@@ -265,7 +269,138 @@
           </div>
         </div>
       </section>
+      <!-- News and Events -->
+      <section class="text-center my-24">
+        <h2 class="text-5xl font-extrabold mb-5">News & Events</h2>
+        <p class="lg:max-w-3xl mx-auto mb-10">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- card -->
+        <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <!-- first card -->
+          <div
+            class="card p-3 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F421] border-solid border-2 border-[#D2D2D2]"
+          >
+            <figure>
+              <img class="pb-3" src="./images/news-1.png" alt="tea" />
+            </figure>
+            <div class="card-body text-left">
+              <p>Feb 05, 2027</p>
+              <h2 class="text-2xl font-extrabold">
+                Collecting 8 points for discount
+              </h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <p class="font-bold">Learn More</p>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+          <div
+            class="card p-3 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F421] border-solid border-2 border-[#D2D2D2]"
+          >
+            <figure>
+              <img class="pb-3" src="./images/news-2.png" alt="tea" />
+            </figure>
+            <div class="card-body text-left">
+              <p>Feb 05, 2027</p>
+              <h2 class="text-2xl font-extrabold">
+                Collecting 8 points for discount
+              </h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <p class="font-bold">Learn More</p>
+            </div>
+          </div>
+
+          <!-- 3rd card -->
+          <div
+            class="card p-3 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F421] border-solid border-2 border-[#D2D2D2]"
+          >
+            <figure>
+              <img class="pb-3" src="./images/news-3.png" alt="tea" />
+            </figure>
+            <div class="card-body text-left">
+              <p>Feb 05, 2027</p>
+              <h2 class="text-2xl font-extrabold">
+                Collecting 8 points for discount
+              </h2>
+              <p>
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <p class="font-bold">Learn More</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <!-- footer -->
+    <footer
+      class="px-52 py-10 bg-gradient-to-r from-[#FF000021] to-[#ff883821] text-base-content"
+    >
+      <div class="flex justify-between my-24">
+        <img src="./images/cup.png" alt="" />
+        <p>
+          <span>
+            Ready to get started?
+            <button
+              class="btn text-white bg-gradient-to-r from-[#ff0000] to-[#ff8838]"
+            >
+              Get Started
+            </button>
+          </span>
+        </p>
+      </div>
+      <div class="footer">
+        <nav>
+          <header class="footer-title">Services</header>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Company</header>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <header class="footer-title">Legal</header>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <header class="footer-title">Newsletter</header>
+          <fieldset class="form-control w-80">
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="bg-transparent mr-4 border-b-2 border-black outline-none"
+              />
+              <button
+                class="btn rounded-full text-white bg-gradient-to-r from-[#ff0000] to-[#ff8838]"
+              >
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </footer>
+    <footer
+      class="footer footer-center p-4 bg-gradient-to-r from-[#FF000021] to-[#ff883821] text-base-content"
+    >
+      <aside>
+        <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+      </aside>
+    </footer>
   </body>
 </html>
